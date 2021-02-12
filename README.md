@@ -1,8 +1,8 @@
 # Prática de criação de classes
 
-Universidade Federal do Rio Grande do Norte
-Instituto Metrópole Digital
-IMD0040 - Linguagem de Programação 2 - 2020.2 35N34
+Universidade Federal do Rio Grande do Norte  
+Instituto Metrópole Digital  
+IMD0040 - Linguagem de Programação 2 - 2020.2 35N34  
 Professor: Vinicius Mendes
 
 O objetivo é evoluir as classes vistas em sala de aula para criar um sistema que gerencie contas de um Banco. Para isso, execute os seguintes passos:
