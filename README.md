@@ -17,4 +17,4 @@ O objetivo é evoluir as classes vistas em sala de aula para criar um sistema qu
 
 5. Crie a classe banco que contenha uma coleção de contas diferentes entre si.
 
-6. Substitua o tipo do campo data de abertura pelo um tipo java.util.LocalDate. Verifique na documentação do Java o funcionamento deste tipo: https://docs.oracle.com/en/java/javase/index.html.
+6. Substitua o tipo do campo data de abertura pelo um tipo java.time.LocalDate. Verifique na documentação do Java o funcionamento deste tipo: https://docs.oracle.com/en/java/javase/index.html.
