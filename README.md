@@ -18,3 +18,11 @@ O objetivo é evoluir as classes vistas em sala de aula para criar um sistema qu
 5. Crie a classe banco que contenha uma coleção de contas diferentes entre si.
 
 6. Substitua o tipo do campo data de abertura pelo um tipo java.time.LocalDate. Verifique na documentação do Java o funcionamento deste tipo: https://docs.oracle.com/en/java/javase/index.html.
+
+## Evoluções da nossa prática para exercitar herança:
+
+1. Criar uma superclasse chamada ContaBancaria da qual a ContaCorrente seja uma subclasse.
+
+2. Substituir o método calculaRendimento por um método abaterTaxaDeJuros que vai abater o valor do saldo com base em um novo atributo chamado taxaDeJuros.
+
+3. Criar uma classe ContaPoupanca que seja subclasse da ContaBancaria e adicionar um atributo taxaDeRendimento e um método atualizarSaldoComRendimento.
