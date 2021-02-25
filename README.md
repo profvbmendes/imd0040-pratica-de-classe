@@ -21,8 +21,16 @@ O objetivo é evoluir as classes vistas em sala de aula para criar um sistema qu
 
 ## Evoluções da nossa prática para exercitar herança:
 
-1. Criar uma superclasse chamada ContaBancaria da qual a ContaCorrente seja uma subclasse.
+7. Criar uma superclasse chamada ContaBancaria da qual a ContaCorrente seja uma subclasse.
 
-2. Substituir o método calculaRendimento por um método abaterTaxaDeJuros que vai abater o valor do saldo com base em um novo atributo chamado taxaDeJuros.
+8. Substituir o método calculaRendimento por um método abaterTaxaDeJuros que vai abater o valor do saldo com base em um novo atributo chamado taxaDeJuros.
 
-3. Criar uma classe ContaPoupanca que seja subclasse da ContaBancaria e adicionar um atributo taxaDeRendimento e um método atualizarSaldoComRendimento.
+9. Criar uma classe ContaPoupanca que seja subclasse da ContaBancaria e adicionar um atributo taxaDeRendimento e um método atualizarSaldoComRendimento.
+
+## Evoluções da nossa prática para exercitar polimorfismo:
+
+10. Em nosso banco, vamos substitua o tipo da coleção de contas para que possa ser armazenado na mesma coleção tanto objetos do tipo ContaCorrente como ContaPoupanca.
+
+11. Sobrescreva o toString da ContaCorrente adicionando o atributo taxaDeJuros à String gerada pelo método da superclasse. 
+
+12. Sobrescreva o toString da ContaPoupanca adicionando o atributo taxaDeRendimento à String gerada pelo método da superclasse.
