@@ -2,25 +2,15 @@ package modelo;
 
 import java.util.Objects;
 
-public class CD {
+public class CD extends Item {
   
-  private String title;
   private String artist;
   private int numberOfTracks;
-  private int playingTime;
-  private boolean gotIt;
-  private String comment;
 
   public CD(String title, String artist, int numberOfTracks, int playingTime) {
-    this.title = title;
+    super(title, playingTime);
     this.artist = artist;
     this.numberOfTracks = numberOfTracks;
-    this.playingTime = playingTime;
-  }
-
-
-  public String getTitle() {
-    return this.title;
   }
 
   public String getArtist() {
@@ -31,37 +21,6 @@ public class CD {
     return this.numberOfTracks;
   }
 
-  public int getPlayingTime() {
-    return this.playingTime;
-  }
-
-  public boolean getGotIt() {
-    return this.gotIt;
-  }
-
-  public void setGotIt(boolean gotIt) {
-    this.gotIt = gotIt;
-  }
-
-  public String getComment() {
-    return this.comment;
-  }
-
-  public void setComment(String comment) {
-    this.comment = comment;
-  }
-
-  @Override
-  public String toString() {
-    return "CD:" +
-      "\ttitle: " + getTitle() +
-      "\n\tartist: " + getArtist() +
-      "\n\tnumberOfTracks: " + getNumberOfTracks() +
-      "\n\tplayingTime: " + getPlayingTime() +
-      "\n\tgotIt: " + getGotIt() +
-      "\n\tcomment: " + getComment();
-  }
-
   @Override
     public boolean equals(Object o) {
         if (o == this)
@@ -70,12 +29,12 @@ public class CD {
             return false;
         }
         CD cd = (CD) o;
-        return Objects.equals(title, cd.title) && Objects.equals(artist, cd.artist) && numberOfTracks == cd.numberOfTracks && playingTime == cd.playingTime && gotIt == cd.gotIt && Objects.equals(comment, cd.comment);
+        return super.equals(o) && Objects.equals(artist, cd.artist) && numberOfTracks == cd.numberOfTracks;
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(title, artist, numberOfTracks, playingTime, gotIt, comment);
+    return Objects.hash(super.hashCode(), artist, numberOfTracks);
   }
 
 }
