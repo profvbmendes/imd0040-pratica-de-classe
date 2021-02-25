@@ -7,6 +7,7 @@ public class ProgramaPolimorfismo {
     DVD dvd = new DVD("O Brother, Where Art Thou?", "Joel & Ehan Coen", 106);
     CD cd = new CD("A Swingin' Affair", "Frank Sinatra", 16, 64);
     System.out.println(dvd);
+    System.out.println();
     System.out.println(cd);
   }
 

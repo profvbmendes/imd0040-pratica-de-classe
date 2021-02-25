@@ -53,14 +53,13 @@ public class CD {
 
   @Override
   public String toString() {
-    return "{" +
-      " title='" + getTitle() + "'" +
-      ", artist='" + getArtist() + "'" +
-      ", numberOfTracks='" + getNumberOfTracks() + "'" +
-      ", playingTime='" + getPlayingTime() + "'" +
-      ", gotIt='" + getGotIt() + "'" +
-      ", comment='" + getComment() + "'" +
-      "}";
+    return "CD:" +
+      "\ttitle: " + getTitle() +
+      "\n\tartist: " + getArtist() +
+      "\n\tnumberOfTracks: " + getNumberOfTracks() +
+      "\n\tplayingTime: " + getPlayingTime() +
+      "\n\tgotIt: " + getGotIt() +
+      "\n\tcomment: " + getComment();
   }
 
   @Override

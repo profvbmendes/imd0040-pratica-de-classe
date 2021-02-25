@@ -49,12 +49,12 @@ public class DVD {
 
   @Override
   public String toString() {
-    return "{" +
-      " title='" + getTitle() + "'" +
-      ", director='" + getDirector() + "'" +
-      ", playingTime='" + getPlayingTime() + "'" +
-      ", gotIt='" + getGotIt() + "'" +
-      ", comment='" + getComment() + "'" +
+    return "DVD:" +
+      "\ttitle='" + getTitle() +
+      "\n\tdirector='" + getDirector() +
+      "\n\tplayingTime='" + getPlayingTime() +
+      "\n\tgotIt='" + getGotIt() +
+      "\n\tcomment='" + getComment() +
       "}";
   }
 
