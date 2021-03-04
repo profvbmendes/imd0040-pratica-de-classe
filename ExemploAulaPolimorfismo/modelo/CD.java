@@ -22,14 +22,25 @@ public class CD extends Item {
   }
 
   @Override
-    public boolean equals(Object o) {
-        if (o == this)
-            return true;
-        if (!(o instanceof CD)) {
-            return false;
-        }
-        CD cd = (CD) o;
-        return super.equals(o) && Objects.equals(artist, cd.artist) && numberOfTracks == cd.numberOfTracks;
+  public String toString() {
+    return "CD:" +
+      "\ttitle: " + this.title +
+      "\n\tartist: " + getArtist() +
+      "\n\tnumberOfTracks: " + getNumberOfTracks() +
+      "\n\tplayingTime: " + getPlayingTime() +
+      "\n\tgotIt: " + getGotIt() +
+      "\n\tcomment: " + getComment();
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (o == this)
+      return true;
+    if (!(o instanceof CD)) {
+      return false;
+    }
+    CD cd = (CD) o;
+    return super.equals(o) && Objects.equals(artist, cd.artist) && numberOfTracks == cd.numberOfTracks;
   }
 
   @Override

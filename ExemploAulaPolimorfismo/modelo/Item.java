@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Item {
 
-  private String title;
+  protected String title;
   private int playingTime;
   private boolean gotIt;
   private String comment;
@@ -48,9 +48,9 @@ public class Item {
       "\n\tcomment: " + getComment();
   }
 
-
   @Override
   public boolean equals(Object o) {
+   
       if (o == this)
           return true;
       if (!(o instanceof Item)) {
