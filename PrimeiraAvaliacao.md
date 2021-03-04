@@ -5,6 +5,8 @@ Instituto Metrópole Digital
 IMD0040 - Linguagem de Programação 2 - 2020.2 35N34  
 Professor: Vinicius Mendes
 
+O prazo para entrega é 22/03/2021 às 23:59.
+
 ## Objetivo
 
 Avaliar a aplicação dos conceitos da linguagem de programação Java e do paradigma de programação orientada a objetos.
@@ -77,5 +79,3 @@ Este projeto contará como 7 pontos da primeira unidade. A forma de avaliação 
 - Uso adequado das coleções
 - Aplicação da herança
 - Aplicação do polimorfismo
-
-O prazo para entrega é 22/03/2021 às 23:59.
