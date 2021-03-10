@@ -1,0 +1,5 @@
+Implementar uma árvore com as operações de buscar, adicionar, excluir e print.
+Ao buscar um nó, retornar o nível em que o nó se encontra. Se ele não existir na árvore, retorne -1.
+Ao adicionar um nó, deve ser informado o seu valor e o valor do nó pai dele.
+Ao excluir um nó, escolha aleatoriamente um de seus filhos para ser a raiz da subárvore.
+O método print deve atender à seguinte relação de recorrência:
